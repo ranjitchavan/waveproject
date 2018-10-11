@@ -1,0 +1,25 @@
+{
+  "name": "waveproject",
+  "version": "1.0.0",
+  "description": "Wasm testing",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjitchavan/waveproject.git"
+  },
+  "author": "Ranjit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjitchavan/waveproject/issues"
+  },
+  "homepage": "https://github.com/ranjitchavan/waveproject#readme"
+}
