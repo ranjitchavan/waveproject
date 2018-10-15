@@ -19,6 +19,13 @@ describe ('App', function(){
         assert.typeOf(wasm._fib(5),'Number')
     
     });
+   
+   
+    it('fib of 5 should be equal to 55',function(){
+    
+        assert.equal(wasm._fib(10),55);
+        
+        })
     
 });
     
