@@ -14,7 +14,7 @@ describe ('App', function(){
         
         })
     
-    it('fib function sho2uld return integer',function(){
+    it('fib function should return integer',function(){
     
         assert.typeOf(wasm._fib(5),'Number')
     
